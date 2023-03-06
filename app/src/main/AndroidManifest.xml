@@ -17,6 +17,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:parentActivityName="com.proyectopmdm.galas.MainActivity"
             android:name=".ComPreguntasActivity"
             android:exported="false">
             <meta-data
@@ -24,6 +25,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:parentActivityName="com.proyectopmdm.galas.MainActivity"
             android:name=".NominadosActivity"
             android:exported="false">
             <meta-data
@@ -31,6 +33,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:parentActivityName="com.proyectopmdm.galas.MainActivity"
             android:name=".ListarActivity"
             android:exported="false">
             <meta-data
@@ -38,6 +41,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:parentActivityName="com.proyectopmdm.galas.MainActivity"
             android:name=".InsertarActivity"
             android:exported="false">
             <meta-data

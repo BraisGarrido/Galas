@@ -27,6 +27,8 @@ public class InsertarActivity extends AppCompatActivity {
         editDirector=findViewById(R.id.edit_director);
         guardar=findViewById(R.id.guardar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         guardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

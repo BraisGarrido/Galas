@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="plantilla_titulo_principal">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="plantilla_titulo_secundario">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="plantilla_resultados">
+        <item name="android:textSize">20dp</item>
+    </style>
     <style name="titulo_principal">
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
+
     </style>
     <style name="resultados">
         <item name="android:textSize">20dp</item>

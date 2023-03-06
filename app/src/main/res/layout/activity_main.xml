@@ -12,6 +12,7 @@
         android:id="@+id/nueva_gala"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:drawableTop="@drawable/a_adir"
         android:text="@string/gala_añadir"
         android:background="@color/dark_gray"
         android:layout_weight="1"/>
@@ -20,6 +21,7 @@
         android:id="@+id/listar_gala"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:drawableTop="@drawable/listar"
         android:text="@string/gala_ver"
         android:background="@color/dark_gray"
         android:layout_weight="1"/>
@@ -28,6 +30,7 @@
         android:id="@+id/actual_gala"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:drawableTop="@drawable/oscar"
         android:text="@string/actual_gala"
         android:background="@color/dark_gray"
         android:layout_weight="1"/>
@@ -36,6 +39,7 @@
         android:id="@+id/juego_preguntas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:drawableTop="@drawable/preguntas"
         android:text="@string/juego_preguntas"
         android:background="@color/dark_gray"
         android:layout_weight="1"/>

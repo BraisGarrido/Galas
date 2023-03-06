@@ -35,6 +35,8 @@ public class ListarActivity extends AppCompatActivity implements SearchView.OnQu
         txtBuscar.setQueryHint("Escribe un año");
         listaGalas=findViewById(R.id.recyclerView);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         listaGalas.setLayoutManager(new LinearLayoutManager(this));
 
         DbGalas dbGalas=new DbGalas(ListarActivity.this);

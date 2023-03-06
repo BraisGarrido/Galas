@@ -18,6 +18,9 @@ public class ComPreguntasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_com_preguntas);
 
         comenzar=findViewById(R.id.comenzar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         comenzar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
