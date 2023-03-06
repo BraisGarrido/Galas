@@ -5,33 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/dark_gray"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/nueva_gala"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Crear una gala nueva"
+        android:text="@string/gala_añadir"
+        android:background="@color/dark_gray"
         android:layout_weight="1"/>
 
     <Button
         android:id="@+id/listar_gala"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Ver las galas"
+        android:text="@string/gala_ver"
+        android:background="@color/dark_gray"
         android:layout_weight="1"/>
 
     <Button
         android:id="@+id/actual_gala"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Nominaciones gala actual"
+        android:text="@string/actual_gala"
+        android:background="@color/dark_gray"
         android:layout_weight="1"/>
 
     <Button
         android:id="@+id/juego_preguntas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Juego de preguntas"
+        android:text="@string/juego_preguntas"
+        android:background="@color/dark_gray"
         android:layout_weight="1"/>
 </LinearLayout>

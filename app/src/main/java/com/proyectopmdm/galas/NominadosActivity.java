@@ -23,14 +23,17 @@ public class NominadosActivity extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.añadir_gala:
+            case R.id.nominados_añadir:
                 Intent intent = new Intent(NominadosActivity.this, InsertarActivity.class);
                 startActivity(intent);
                 return true;
-            case R.id.listar_galas:
+            case R.id.nominados_listar:
                 Intent intent1 = new Intent(NominadosActivity.this, ListarActivity.class);
                 startActivity(intent1);
                 return true;
+            case R.id.nominados_juego:
+                Intent intent2=new Intent(NominadosActivity.this, ComPreguntasActivity.class);
+                startActivity(intent2);
             default:
                 return super.onOptionsItemSelected(item);
         }

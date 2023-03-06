@@ -58,10 +58,13 @@ public class InsertarActivity extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case R.id.menu_verGalas:
+            case R.id.insertar_listar:
                 Intent intent=new Intent(InsertarActivity.this, ListarActivity.class);
                 startActivity(intent);
                 return true;
+            case R.id. insertar_juego:
+                Intent intent1=new Intent(InsertarActivity.this, InsertarActivity.class);
+                startActivity(intent1);
             default:
                 return super.onOptionsItemSelected(item);
         }

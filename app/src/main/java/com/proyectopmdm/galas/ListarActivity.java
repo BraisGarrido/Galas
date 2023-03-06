@@ -65,7 +65,7 @@ public class ListarActivity extends AppCompatActivity implements SearchView.OnQu
 
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case R.id.menu_añadir:
+            case R.id.listar_añadir:
                 Intent intent=new Intent(ListarActivity.this, InsertarActivity.class);
                 startActivity(intent);
                 return true;

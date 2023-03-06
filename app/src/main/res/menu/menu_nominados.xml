@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/añadir_gala"
+        android:id="@+id/nominados_añadir"
         android:title="@string/menu_añadir"/>
     <item
-        android:id="@+id/listar_galas"
+        android:id="@+id/nominados_listar"
         android:title="@string/menu_listar"/>
     <item
-        android:id="@+id/juego"
+        android:id="@+id/nominados_juego"
         android:title="@string/menu_juego"/>
 </menu>

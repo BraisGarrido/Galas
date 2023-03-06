@@ -92,4 +92,8 @@
     <string name="banda_sonora">Mejor banda sonora</string>
     <string name="efectos">Mejores efectos especiales</string>
     <string name="doc_corto">Mejor cortometraje documental</string>
+    <string name="gala_añadir">Crear gala</string>
+    <string name="gala_ver">Ver galas</string>
+    <string name="actual_gala">Nominaciones gala 2023</string>
+    <string name="juego_preguntas">Quiz Oscar</string>
 </resources>
