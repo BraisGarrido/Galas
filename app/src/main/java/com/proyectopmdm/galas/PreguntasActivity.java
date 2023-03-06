@@ -50,71 +50,72 @@ public class PreguntasActivity extends AppCompatActivity {
     public void siguiente (View v){
         //if por si no se marca ninguna opcion
         if(!respuesta1.isChecked() && !respuesta2.isChecked() && !respuesta3.isChecked()){
-            Toast.makeText(this, "Elija una opción", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Elije una opción", Toast.LENGTH_SHORT).show();
         }else if(npregunta == 1){
+            //El enunciado de la primera pregunta se pone directamente en el activity_preguntas(Respuesta correcta: 2)
             //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
             if(respuesta2.isChecked()){
                 nota = nota + 2;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
-            //Se setean los textos para la siguiente pregunta
+            //Se reinician los textos para la siguiente pregunta(Respuesta correcta: 3)
             num_pregunta.setText("Pregunta 2");
-            enunciado.setText("Esta es la pregunta 2, su respuesta correcta es la opcion 1");
-            respuesta1.setText("Opcion 1 p2");
-            respuesta2.setText("Opcion 2 p2");
-            respuesta3.setText("Opcion 3 p2");
+            enunciado.setText("¿Cual es la película con más premios Oscar ganados?");
+            respuesta1.setText("Titanic");
+            respuesta2.setText("El señor de los anillos: El retorno del rey");
+            respuesta3.setText("Ambas");
             //Se limpian los Radio buttons para la siguiente pregunta
             respuesta1.setChecked(false);
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
         }else if(npregunta == 2) {
             //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
-            if (respuesta1.isChecked()) {
+            if (respuesta3.isChecked()) {
                 nota = nota + 2;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
-            //Se setean los textos para la siguiente pregunta
+            //Se reinician los textos para la siguiente pregunta(Respuesta correcta: 1)
             num_pregunta.setText("Pregunta 3");
-            enunciado.setText("Esta es la pregunta 3, su respuesta correcta es la opcion 3");
-            respuesta1.setText("Opcion 1 p3");
-            respuesta2.setText("Opcion 2 p3");
-            respuesta3.setText("Opcion 3 p3");
+            enunciado.setText("¿Cuando fue la primera gala de los premios Oscar?");
+            respuesta1.setText("1929");
+            respuesta2.setText("1931");
+            respuesta3.setText("1927");
             //Se limpian los Radio buttons para la siguiente pregunta
             respuesta1.setChecked(false);
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
         }else if(npregunta == 3) {
             //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
-            if (respuesta3.isChecked()) {
+            if (respuesta1.isChecked()) {
                 nota = nota + 2;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
-            //Se setean los textos para la siguiente pregunta
+            //Se reinician los textos para la siguiente pregunta(Respuesta correcta: 2)
             num_pregunta.setText("Pregunta 4");
-            enunciado.setText("Esta es la pregunta 4, su respuesta correcta es la opcion 1");
-            respuesta1.setText("Opcion 1 p4");
-            respuesta2.setText("Opcion 2 p4");
-            respuesta3.setText("Opcion 3 p4");
+            enunciado.setText("¿Cual fue la primera película de habla no inglesa en ganar el Oscar a mejor película?");
+            respuesta1.setText("Roma");
+            respuesta2.setText("Parásitos");
+            respuesta3.setText("La gran belleza");
             //Se limpian los Radio buttons para la siguiente pregunta
             respuesta1.setChecked(false);
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
         }else if(npregunta == 4) {
             //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
-            if (respuesta1.isChecked()) {
+            if (respuesta2.isChecked()) {
                 nota = nota + 2;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
-            //Se setean los textos para la siguiente pregunta
+            //Se reinician los textos para la siguiente pregunta(Respuesta correcta:2)
             num_pregunta.setText("Pregunta 5");
-            enunciado.setText("Esta es la pregunta 5, su respuesta correcta es la opcion 2");
-            respuesta1.setText("Opcion 1 p5");
-            respuesta2.setText("Opcion 2 p5");
-            respuesta3.setText("Opcion 3 p5");
+            enunciado.setText("¿Cual fue la primera película española en ganar un Oscar?");
+            respuesta1.setText("Los santos inocentes");
+            respuesta2.setText("Volver a empezar");
+            respuesta3.setText("Amanece, que no es poco");
             //Se limpian los Radio buttons para la siguiente pregunta
             respuesta1.setChecked(false);
             respuesta2.setChecked(false);
@@ -124,13 +125,15 @@ public class PreguntasActivity extends AppCompatActivity {
             if (respuesta2.isChecked()) {
                 nota = nota + 2;
             }
-            //Se setean los textos para el resultado de la nota
+            //Se reinician los textos para el resultado de la nota
             num_pregunta.setText("Nota obtenida: "+nota);
             //IF para verificar si se ha aprobado o reprobado
-            if(nota >= 6){
-                enunciado.setText("Estado: Aprobado");
+            if(nota >= 0 && nota <= 4)
+                enunciado.setText("Un poco flojo, vuelve a intentarlo");
+            if(nota >= 4 && nota <= 6){
+                enunciado.setText("Increíble, eres muy bueno");
             }else{
-                enunciado.setText("Estado: Reprobado");
+                enunciado.setText("Eres todo un experto cinematográfico");
             }
             //Se ocultan las opciones que no se van a usar para ver la nota y resultado
             respuesta1.setVisibility(View.GONE);

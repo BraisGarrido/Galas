@@ -17,7 +17,7 @@
         android:id="@+id/enunciado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Este es el enunciado de una pregunta"/>
+        android:text="¿Cual fue la primera película de animación en ganar un Oscar?"/>
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -26,19 +26,19 @@
             android:id="@+id/respuesta1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respuesta 1"/>
+            android:text="Atlantis: El imperio perdido"/>
 
         <RadioButton
             android:id="@+id/respuesta2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respuesta 2"/>
+            android:text="Shrek"/>
 
         <RadioButton
             android:id="@+id/respuesta3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respuesta 3"/>
+            android:text="El viaje de Chihiro"/>
     </RadioGroup>
 
     <Button

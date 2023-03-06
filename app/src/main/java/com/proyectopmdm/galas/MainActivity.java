@@ -47,24 +47,24 @@ public class MainActivity extends AppCompatActivity {
         gala_listar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this, ListarActivity.class);
-                startActivity(intent);
+                Intent intent1=new Intent(MainActivity.this, ListarActivity.class);
+                startActivity(intent1);
             }
         });
 
         gala_actual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this, NominadosActivity.class);
-                startActivity(intent);
+                Intent intent2=new Intent(MainActivity.this, NominadosActivity.class);
+                startActivity(intent2);
             }
         });
 
         juego_preguntas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this, ComPreguntasActivity.class);
-                startActivity(intent);
+                Intent intent3=new Intent(MainActivity.this, ComPreguntasActivity.class);
+                startActivity(intent3);
             }
         });
     }
