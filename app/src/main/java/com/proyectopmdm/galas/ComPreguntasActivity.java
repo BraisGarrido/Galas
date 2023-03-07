@@ -1,6 +1,5 @@
 package com.proyectopmdm.galas;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,23 +20,27 @@ public class ComPreguntasActivity extends AppCompatActivity {
 
         comenzar=findViewById(R.id.comenzar);
 
+        // Se establece que se muestre el botón de "volver atrás" en la barra de acción (action bar)
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        // Se establece el comportamiento para cuando se haga clic en el botón "comenzar"
         comenzar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ComPreguntasActivity.this, PreguntasActivity.class);
+                intent=new Intent(ComPreguntasActivity.this, PreguntasActivity.class);
                 startActivity(intent);
             }
         });
     }
 
+    // Se crea el menú de opciones para la actividad
     public boolean onCreateOptionsMenu (Menu menu){
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.menu_juego, menu);
         return true;
     }
 
+    // Se establece el comportamiento para cuando se seleccione una opción del menú de opciones
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.juego_ver:

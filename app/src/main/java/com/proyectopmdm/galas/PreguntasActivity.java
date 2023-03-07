@@ -53,9 +53,9 @@ public class PreguntasActivity extends AppCompatActivity {
             Toast.makeText(this, "Elije una opción", Toast.LENGTH_SHORT).show();
         }else if(npregunta == 1){
             //El enunciado de la primera pregunta se pone directamente en el activity_preguntas(Respuesta correcta: 2)
-            //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
+            //Se verifica la respuesta, si es correcta se agrega 1 punto a la nota
             if(respuesta2.isChecked()){
-                nota = nota + 2;
+                nota = nota + 1;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
@@ -70,9 +70,9 @@ public class PreguntasActivity extends AppCompatActivity {
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
         }else if(npregunta == 2) {
-            //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
+            //Se verifica la respuesta, si es correcta se agrega 1 punto a la nota
             if (respuesta3.isChecked()) {
-                nota = nota + 2;
+                nota = nota + 1;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
@@ -87,9 +87,9 @@ public class PreguntasActivity extends AppCompatActivity {
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
         }else if(npregunta == 3) {
-            //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
+            //Se verifica la respuesta, si es correcta se agrega 1 punto a la nota
             if (respuesta1.isChecked()) {
-                nota = nota + 2;
+                nota = nota + 1;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
@@ -104,9 +104,9 @@ public class PreguntasActivity extends AppCompatActivity {
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
         }else if(npregunta == 4) {
-            //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
+            //Se verifica la respuesta, si es correcta se agrega punto a la nota
             if (respuesta2.isChecked()) {
-                nota = nota + 2;
+                nota = nota + 1;
             }
             //Se le suma 1 al contador de la pregunta
             npregunta = npregunta + 1;
@@ -120,17 +120,19 @@ public class PreguntasActivity extends AppCompatActivity {
             respuesta1.setChecked(false);
             respuesta2.setChecked(false);
             respuesta3.setChecked(false);
+
+            siguiente.setText("Finalizar");
         }else if(npregunta == 5) {
-            //Se verifica la respuesta, si es correcta se agregan 2 puntos a la nota
+            //Se verifica la respuesta, si es correcta se agrega 1 punto a la nota
             if (respuesta2.isChecked()) {
-                nota = nota + 2;
+                nota = nota + 1;
             }
             //Se reinician los textos para el resultado de la nota
-            num_pregunta.setText("Nota obtenida: "+nota);
+            num_pregunta.setText("Preguntas acertadas: "+nota);
             //IF para verificar si se ha aprobado o reprobado
-            if(nota >= 0 && nota <= 4)
+            if(nota >= 0 && nota <= 2)
                 enunciado.setText("Un poco flojo, vuelve a intentarlo");
-            if(nota >= 4 && nota <= 6){
+            else if(nota > 2 && nota <= 4){
                 enunciado.setText("Increíble, eres muy bueno");
             }else{
                 enunciado.setText("Eres todo un experto cinematográfico");

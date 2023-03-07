@@ -33,9 +33,11 @@ public class InsertarActivity extends AppCompatActivity {
         guardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Cogemos los textos de los campos y los insertamos en la base de datos
                 DbGalas dbGalas=new DbGalas(InsertarActivity.this);
                 long id=dbGalas.insertaGala(editYear.getText().toString(), editFilm.getText().toString(), editDirector.getText().toString());
 
+                //Creamos dos toast para indicar si los campos han sido registrados con exito o han tenido un error
                 if(id > 0){
                     Toast.makeText(InsertarActivity.this, "REGISTRO GUARDADO", Toast.LENGTH_LONG).show();
                     limpiar();
@@ -47,12 +49,14 @@ public class InsertarActivity extends AppCompatActivity {
         });
     }
 
+    //Método para limpiar todos los campos después de meter un registro
     private void limpiar(){
         editYear.setText("");
         editFilm.setText("");
         editDirector.setText("");
     }
 
+    //Creamos menu para ir al resto de opciones
     public boolean onCreateOptionsMenu (Menu menu){
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.menu_insertar, menu);

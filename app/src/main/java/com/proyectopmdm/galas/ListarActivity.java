@@ -36,10 +36,12 @@ public class ListarActivity extends AppCompatActivity implements SearchView.OnQu
         txtBuscar.setQueryHint("Escribe un año");
         listaGalas=findViewById(R.id.recyclerView);
 
+        // Se establece que se muestre el botón de "volver atrás" en la barra de acción (action bar)
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         listaGalas.setLayoutManager(new LinearLayoutManager(this));
 
+        //Instanciamos la arraylist para llenar el recyclerview
         DbGalas dbGalas=new DbGalas(ListarActivity.this);
         listaArrayGalas=new ArrayList<>();
 
@@ -49,6 +51,7 @@ public class ListarActivity extends AppCompatActivity implements SearchView.OnQu
         txtBuscar.setOnQueryTextListener(this);
     }
 
+    //Añadimos el filtrado para darle funcionalidad al buscador
     @Override
     public boolean onQueryTextSubmit(String s) {
         return false;

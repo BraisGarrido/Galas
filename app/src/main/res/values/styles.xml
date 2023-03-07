@@ -4,27 +4,34 @@
         <item name="android:textSize">25dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <style name="recycler_titulo_secundario">
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <style name="recycler_resultados">
         <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <style name="titulo_principal">
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <style name="titulo_secundario">
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <style name="resultados">
         <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">10dp</item>
     </style>
 </resources>

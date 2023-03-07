@@ -27,5 +27,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:background="@drawable/boton_redondo"
+        android:textColor="@color/white"
         android:text="@string/comenzar"/>
 </LinearLayout>
