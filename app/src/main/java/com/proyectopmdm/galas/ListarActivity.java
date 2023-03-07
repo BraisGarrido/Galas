@@ -25,6 +25,7 @@ public class ListarActivity extends AppCompatActivity implements SearchView.OnQu
     RecyclerView listaGalas;
     ArrayList<Galas> listaArrayGalas;
     ListaGalasAdapter adapter;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +69,7 @@ public class ListarActivity extends AppCompatActivity implements SearchView.OnQu
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.listar_añadir:
-                Intent intent=new Intent(ListarActivity.this, InsertarActivity.class);
+                intent=new Intent(ListarActivity.this, InsertarActivity.class);
                 startActivity(intent);
                 return true;
             default:

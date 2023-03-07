@@ -96,4 +96,7 @@
     <string name="gala_ver">Ver galas</string>
     <string name="actual_gala">Nominaciones gala 2023</string>
     <string name="juego_preguntas">Quiz Oscar</string>
+    <string name="test_preguntas">Test de preguntas</string>
+    <string name="introduccion_preguntas">Comprueba tus conocimietos sobre el mundo de los Oscar con este sencillo test</string>
+    <string name="comenzar">Comenzar</string>
 </resources>

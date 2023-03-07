@@ -16,73 +16,73 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/gala_actual"
-            style="@style/plantilla_titulo_principal"/>
+            style="@style/titulo_principal"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mejor_pelicula"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/almas_pena"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/avatar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/todo_a_la_vez"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fabelman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_gun"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/triangulo"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ellas"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -98,37 +98,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mejor_director"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/martin"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/daniel"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/todd"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/spielberg"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ruben"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -144,37 +144,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/actriz"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cate"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ana"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/andrea"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/michelle"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/michelleW"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -190,37 +190,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/actor"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/brendan"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/austin"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/colin"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/paul"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bill"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -236,37 +236,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/actriz_reparto"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/angela"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/jamie"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/kerry"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hong"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/stephanie"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -282,37 +282,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/actor_reparto"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ke"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/brian"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/judd"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/brendanG"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/barry"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -328,37 +328,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/guion_original"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/almas_pena"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/todo_a_la_vez"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fabelman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/triangulo"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -374,37 +374,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/guion_adaptado"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ellas"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/living"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/puñales"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_gun"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -420,37 +420,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/producción"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/avatar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/babylon"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fabelman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -466,37 +466,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pelicula_internacional"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/argentina"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/close"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/EO"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/the_quiet"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -512,37 +512,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/montaje"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_gun"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/almas_pena"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/todo_a_la_vez"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -558,37 +558,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fotografia"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bardo"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/imperio"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -604,37 +604,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/peli_animacion"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pinocho"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/marcel"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/gato_botas"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/monstruo"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/red"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -650,37 +650,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/vestuario"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/babylon"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/black_panther"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/todo_a_la_vez"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/viaje_paris"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -696,37 +696,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/maquillaje"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/batman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/black_panther"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/whale"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -742,37 +742,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sonido"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/avatar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/elvis"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/batman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_gun"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -788,31 +788,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cancion"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lift"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/naatu"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/applause"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hold"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -828,31 +828,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/documental"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/la_belleza"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fire"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/a_house"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/navanly"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -868,37 +868,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/banda_sonora"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/babylon"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/almas_pena"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fabelman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/todo_a_la_vez"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <View
             android:layout_width="fill_parent"
@@ -914,36 +914,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/efectos"
-            style="@style/plantilla_titulo_secundario"/>
+            style="@style/titulo_secundario"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sin_novedad"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/avatar"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/batman"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/black_panther"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_gun"
-            style="@style/plantilla_resultados"/>
+            style="@style/resultados"/>
     </LinearLayout>
 </ScrollView>

@@ -8,6 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 public class NominadosActivity extends AppCompatActivity {
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,16 +27,16 @@ public class NominadosActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.nominados_añadir:
-                Intent intent = new Intent(NominadosActivity.this, InsertarActivity.class);
+                intent = new Intent(NominadosActivity.this, InsertarActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.nominados_listar:
-                Intent intent1 = new Intent(NominadosActivity.this, ListarActivity.class);
-                startActivity(intent1);
+                intent = new Intent(NominadosActivity.this, ListarActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.nominados_juego:
-                Intent intent2=new Intent(NominadosActivity.this, ComPreguntasActivity.class);
-                startActivity(intent2);
+                intent=new Intent(NominadosActivity.this, ComPreguntasActivity.class);
+                startActivity(intent);
             default:
                 return super.onOptionsItemSelected(item);
         }

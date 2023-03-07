@@ -5,24 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/dark_gray"
     tools:context=".ComPreguntasActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Test de preguntas"
-        android:gravity="center"
+        android:text="@string/test_preguntas"
         style="@style/titulo_principal"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Comprueba tus conocimientos sobre el mundo del cine en este sencillo test"
-        style="@style/resultados"/>
+        android:layout_marginTop="20dp"
+        android:text="@string/introduccion_preguntas"
+        style="@style/titulo_secundario"/>
 
     <Button
         android:id="@+id/comenzar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Comenzar"/>
+        android:layout_marginTop="40dp"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/comenzar"/>
 </LinearLayout>

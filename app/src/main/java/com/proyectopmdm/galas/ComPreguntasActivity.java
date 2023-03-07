@@ -1,5 +1,6 @@
 package com.proyectopmdm.galas;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.widget.Button;
 
 public class ComPreguntasActivity extends AppCompatActivity {
     Button comenzar;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +41,7 @@ public class ComPreguntasActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.juego_ver:
-                Intent intent=new Intent(ComPreguntasActivity.this, ListarActivity.class);
+                intent=new Intent(ComPreguntasActivity.this, ListarActivity.class);
                 startActivity(intent);
                 return true;
             default:
